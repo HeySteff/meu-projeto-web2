@@ -1,0 +1,7 @@
+.tela-inicial, .tela-milho {
+  display: none; /* Esconde as telas inicialmente */
+}
+
+.tela-inicial.active, .tela-milho.active {
+  display: block; /* Mostra a tela ativa */
+}
